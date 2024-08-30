@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap');
+ 
+.principal1{
+ text-align: center;
+ 
+  
+ font-family: "New Amsterdam", sans-serif;
+ font-weight: 400;
+ font-size: 40px;
+ font-style: normal;
+ text-transform: uppercase;
+  background: linear-gradient(45deg, #00E3CC, #ff0000, #023f81, #44E3D3);
+ 
+  background-size: 400%  100%;
+ animation: degrade 7s linear infinite alternate;
+ -webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+@keyframes degrade {
+    0%{
+        background-position-x: 0%;
+    }
+    100%{
+        background-position: 400%;
+    }
+}
+
+.cordefundo{
+ background-color: rgba(0, 0, 0, 0.795) ;
+ background-image: url('https://g3i5r4x7.rocketcdn.me/wp-content/uploads/2020/08/espaco-sideral.jpg');
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+.htmlss{ 
+
+    color:rgb(21, 20, 20); 
+   font-style: italic; 
+   margin-top: 15px;  
+  margin-left: 150px;
+  margin-right: 800px;
+   text-align: left;
+   text-decoration: underline;
+    
+ position: absolute;
+   border-radius: 15px ; 
+   border-width: 5px , rgb(226, 238, 248) ;
+   border-style:groove;
+      
+   
+   background-color: aqua;
+    
+   text-transform: uppercase ;
+}
+
+.para{
+    position: absolute;
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 60px;
+    margin-left: 80px ;
+    margin-right: 680px ;
+    background: linear-gradient(45deg, #e3b900, #ff9d00, #966900, #cff640);
+ 
+    background-size: 400%  100%;
+   animation: degrae 5s linear infinite alternate;
+   -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    
+}
+@keyframes degrae {
+    0%{
+        background-position-x: 0%;
+    }
+    100%{
+        background-position: 400%;
+    }
+}
+
+.htmlss:hover {
+    color: #cff640;
+    background: linear-gradient(rgb(0, 106, 255),rgb(0, 157, 255) , rgb(255, 234, 0));
+
+
+}
+.buraconegro{
+
+    margin-top: 200px;
+    position: absolute;
+color: aliceblue;
+    border: 3px ;
+    border-radius: 15px ;
+    border-width: 5px, rgb(240, 240, 244) ;
+    border-style: groove;
+    margin-left: 130px;
+    border-color :#75e7db;
+    background: linear-gradient(45deg, #000000, #faf5f5, #812202, #75e7db);
+ 
+    background-size: 400%  100%;
+   animation: bura 7s  infinite alternate;
+   -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+@keyframes bura {
+    0%{
+        background-position-x: 0%;
+    }
+    100%{
+        background-position: 400%;
+    }
+}
+
+.descriçãoburaconegro{
+    margin-top: 260px;
+    position: absolute;
+    color:aliceblue;
+    margin-left: 80px ;
+    margin-right: 680px ;
+
+    background: linear-gradient(45deg, #640b0b, #dacd0f, #025981, #7593e7);
+ 
+    background-size: 400%  100%;
+   animation: des 7s  infinite alternate;
+   -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+@keyframes des {
+    0%{
+        background-position-x: 0%;
+    }
+    100%{
+        background-position: 400%;
+    }
+}
+.botão {
+    margin-top: 333px;
+    margin-left: 270px ;
+    position: absolute;
+
+}
+
+.buraconegro:hover{
+    cursor: pointer;
+     
+}
+
+ #imagem {
+    position: absolute;
+    margin-left: 720px ;
+    margin-top: 20px ;
+   display: none;
+ 
+ }
+ 
+     
+
+
